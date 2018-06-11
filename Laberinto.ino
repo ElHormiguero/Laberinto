@@ -1,4 +1,4 @@
-/* Labrínto de bolas montado sobre una superficie con dos ejes movidos por dos servomotores que replican el ángulo obtenido desde un acelerómetro por radiofrecuencia.
+/* Labrinto de bolas montado sobre una superficie con dos ejes movidos por dos servomotores que replican el ángulo obtenido desde un acelerómetro por radiofrecuencia.
    Autor: Javier Vargas. El Hormiguero.
    https://creativecommons.org/licenses/by/4.0/
 */
