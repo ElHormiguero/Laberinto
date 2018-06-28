@@ -1,4 +1,4 @@
-/* Labrinto de bolas montado sobre una superficie con dos ejes movidos por dos servomotores que replican el ángulo obtenido desde un acelerómetro por radiofrecuencia.
+/* Laberinto de bolas montado sobre una superficie con dos ejes movidos por dos servomotores que replican el ángulo obtenido desde un acelerómetro por radiofrecuencia.
    Autor: Javier Vargas. El Hormiguero.
    https://creativecommons.org/licenses/by/4.0/
 */
@@ -11,7 +11,7 @@
 #define OffsetX -2 //Offset
 #define OffsetY 15
 #define MaxX 25 //Angulo máximo permitido
-#define MaxY 25 
+#define MaxY 25
 #define FactorAng 0.3f //Relacion entre el angulo del acelerometro y el servo
 #define PulsoMax 2193 //PWM a angulo max
 #define PulsoMin 771 //PWM a angulo min
@@ -66,7 +66,7 @@ void setup() {
 void loop() {
 
   //Palanca activada
-  if (!digitalRead(pinBoton)) {
+  if (digitalRead(pinBoton)) {
 
     //  Lectura de datos recibidos por RF
     if (radio.available()) {
